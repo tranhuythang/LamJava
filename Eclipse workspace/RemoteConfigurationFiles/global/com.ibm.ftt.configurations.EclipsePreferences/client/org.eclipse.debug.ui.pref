@@ -1,0 +1,6 @@
+# 
+#Wed Dec 16 22:41:51 MST 2020
+org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
+# 
+#Wed Dec 16 22:41:51 MST 2020
+preferredTargets=default\:default|

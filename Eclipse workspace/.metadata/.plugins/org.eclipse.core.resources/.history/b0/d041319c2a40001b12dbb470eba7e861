@@ -1,0 +1,37 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class Ex1 {
+	public static void main(String[] args) {
+		String query1 = " select Articles.articleID, title, count(commentID) as 'comment count'"
+					 +  " from Articles"
+					 +  " inner join Comments on Articles.articleID = Comments.articleID"
+					 +  " group by Articles.articleID, title ";
+
+		String query2 = " select Articles.articleID, title, count(commentID) as 'comment count'"
+					  + " from Articles"
+					  + " inner join Comments on Articles.articleID = Comments.articleID"
+					  + " group by Articles.articleID, title"
+					  + " having count(commentID) > 2";
+
+		//Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+		
+		
+		try(
+			Connection connection = DriverManager.getConnection("jdbc:sqlserver://localhost\\SQLExpress;user=tranh;password=Abc8357322");
+			Statement statement = connection.createStatement();
+			ResultSet result1 = statement.executeQuery(query1);
+			ResultSet result2 = statement.executeQuery(query2);
+				){
+			while(result1.next()) {
+				System.out.println(result1.getString("title"));
+			}
+						
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
