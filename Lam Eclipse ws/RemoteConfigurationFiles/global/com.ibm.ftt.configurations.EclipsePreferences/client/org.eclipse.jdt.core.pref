@@ -1,0 +1,21 @@
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.source=1.8
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.compiler.compliance=1.8
+# 
+#Thu Dec 17 12:09:24 MST 2020
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
