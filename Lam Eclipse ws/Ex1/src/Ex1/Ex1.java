@@ -1,4 +1,3 @@
-package Ex1;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -17,7 +16,7 @@ public class Ex1 {
 					  + " group by Articles.articleID, title"
 					  + " having count(commentID) > 2";
 
-		System.out.println("Start ...");
+		
 		String connectionString = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;databaseName=NewsPaper;user=userTest;password=Abc8357322";
 		
 		try(
