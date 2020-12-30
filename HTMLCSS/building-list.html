@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <script>
+            function makeItBold(id){
+                id.innerHTML="<b> Make it Bold </b>"
+            }
+        </script>       
+    </head>
+    <body>
+
+        <p><b>Tìm kiếm</b></p>
+        <p>Tên tòa nhà</p>
+        <input type="text" id="tenToaNha">
+
+        <p>Diện tích Sàn</p>
+        <input type="text" id="dienTichSan">
+
+        <p>Diện tích từ</p>
+        <input type="text" id="dienTichTu">
+
+        <p>Diện tích đến</p>
+        <input type="text" id="dienTichDen">
+
+        <p>Giá thuê từ</p>
+        <input type="text" id="giaThueTu">
+
+        <p>Giá thuê đến</p>
+        <input type="text" id="giaThueDen">
+
+        <p><b>Kết quả tìm kiếm</b></p>
+
+        <table style="border:1px solid black">
+            <tr>
+                <td>Tên sản phẩm</td>
+                <td>Địa chỉ</td>
+                <td>Tên quản lí</td>
+                <td>Số điện thoại</td>
+                <td>Diện tích Sàn</td>
+                <td>Giá thuê</td>
+                <td>Phí dịch vụ</td>
+                <td>Thao tác</td>
+            </tr>            
+        </table>
+
+        <p><b>Kết quả tìm kiếm</b></p>
+        <br>
+        <button type="button" onclick="makeItBold(this)">THÊM tòa nhà</button>
+        <button>XÓA tòa nhà</button>
+    </body>
+</html>
