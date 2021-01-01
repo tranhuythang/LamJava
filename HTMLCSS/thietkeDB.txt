@@ -1,0 +1,139 @@
+Hi all,
+
+Video: https://youtu.be/l-bt6FoMbcw
+
+Link khóa học để xem phần video phân tích website:
+https://laptrinhjavaweb.com/khoa-hoc-java-web-co-ban-den-nang-cao
+
+Mọi người chú ý exercise-3 nhé:
+Sau khi xem xong video phân tích chức năng website quản lý tòa nhà
+Mọi người thiết kế database phục vụ các yêu cầu trong website nhé
+Mình tóm lại 3 chức năng chính trong video:
++ Quản lý tòa nhà
++ Quản lý khách hàng
++ Quản lý giao dịch
+Nội dung nộp bài
+Title mail: exercise-3 - họ tên - java web 12 2020
+Nội dung: Xuất diagram và nộp lại cho mình, ai không biết xuất diagram thì nói mình để mình hướng dẫn nhé
+Deadline: 12h tối 31/12/2020
+
+1. Tòa Nhà:
+- Tên tòa nhà
+- Người quản lý
+- Quận
+- Phường
+- Đường
+- Kết cấu
+- Số tầng hầm
+- Diện tích sàn
+- Hướng
+- Hạng
+- Diện tích thuê
+- Mô tả diện tích
+- Giá thuê
+- Mô tả giá
+- Phí dịch vụ
+- Phí ô tô
+- Phí mô tô
+- Phí ngoài giờ
+- Tiền điện
+- Đặt cọc
+- Thanh toán
+- Thời hạn thuê
+
+2. Nhân viên
+
+2. Khách hàng
+- Tên khách hàng
+- Di động
+- Email
+- Nhu cầu
+- Nhân viên phụ trách
+- Người nhập
+- Ngày nhập
+- Tình trạng xử lý
+
+3. Phiên chăm sóc khách hàng
+- Ngày, giờ chăm sóc
+- Khách hàng
+- Nhân viên chăm sóc
+- Hoạt động chăm sóc
+
+=============
+1 tòa nhà - n nhân viên phục vụ
+1 tòa nhà - 1 nhân viên quản lý
+1 tòa nhà - n phòng thuê
+1 nhân viên - n Phiên chăm sóc khách hàng
+1 khách hàng - n Phiên chăm sóc khách hàng
+
+
+1. Tòa nhà
+- id
+- tên tòa nhà
+- Thông tin thêm về tòa nhà
+- id Nhân viên Quản lý
+2. Nhân viên
+- id
+- tên nhân viên
+- Thông tin thêm về Nhân viên
+- Phục vụ cho tòa nhà
+3. Phòng thuê
+- id
+- tên phòng
+- Trống hay Không
+- thuộc tòa nhà
+4. Phiên chăm sóc khách hàng
+- id
+- id khách hàng
+- id nhân viên chăm sóc
+- ngày giờ phiên chăm sóc được thực hiện
+- phân loại chăm sóc
+
+
+1. Tòa Nhà
+- Tên tòa nhà
+- Người quản lý
+- Quận
+- Phường
+- Đường
+- Kết cấu
+- Số tầng hầm
+- Diện tích sàn
+- Hướng
+- Hạng
+- Diện tích thuê
+- Mô tả diện tích
+- Giá thuê
+- Mô tả giá
+- Phí dịch vụ
+- Phí ô tô
+- Phí mô tô
+- Phí ngoài giờ
+- Tiền điện
+- Đặt cọc
+- Thanh toán
+- Thời hạn thuê
+
+2. Phòng cho thuê
+
+3. Nhân viên
+- id
+- tên nhân viên
+- email
+- di động
+
+4. Khách hàng
+- Tên khách hàng
+- Di động
+- Email
+- Nhu cầu
+- Nhân viên phụ trách
+- Người nhập
+- Ngày nhập
+- Tình trạng xử lý
+
+5. Phiên chăm sóc khách hàng
+- Ngày, giờ chăm sóc
+- Khách hàng
+- Nhân viên chăm sóc
+- Hoạt động chăm sóc
